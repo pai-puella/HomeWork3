@@ -86,5 +86,21 @@ public class Main {
 
         System.out.println("Вес спортзавтрака: " + breakfastWeight + " г (" + breakfastKgWeight + ") кг");
 
+        System.out.println();
+        System.out.println("Задача 7");
+
+        int targetWeightLoss = 7;
+        int minDailyWeightLoss = 250;
+        int maxDailyWeightLoss = 500;
+
+        int daysMinWeightLoss = targetWeightLoss * 1000 / minDailyWeightLoss;
+        int daysMaxWeightLoss = targetWeightLoss * 1000 / maxDailyWeightLoss;
+        int averageDaysWeightLoss = (daysMinWeightLoss + daysMaxWeightLoss) / 2;
+
+        System.out.println("Дней на похудение (250 г в день): " + daysMinWeightLoss);
+        System.out.println("Дней на похудение (500 г в день): " + daysMaxWeightLoss);
+        System.out.println("Среднее количество дней на похудение: " + averageDaysWeightLoss);
+
+
     }
 }
