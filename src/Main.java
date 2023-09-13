@@ -28,6 +28,7 @@ public class Main {
         int myInt3 = 27897;
         int myInt4 = 67;
 
+        System.out.println();
         System.out.println("Задача 3");
 
         int studentsOfLudmilaPavlovna = 23;
@@ -39,6 +40,7 @@ public class Main {
         int sheetsPerStudent = totalSheets / totalStudents;
         System.out.println("На каждого ученика рассчитано " + sheetsPerStudent + " листов бумаги");
 
+        System.out.println();
         System.out.println("Задача 4");
 
         int bottlesPerTwoMinutes = 16;
@@ -58,6 +60,7 @@ public class Main {
         System.out.println("За " + minutes3 + " минут машина произвела " + bottlesPer3Days + " штук бутылок");
         System.out.println("За " + minutes4 + " минут машина произвела " + bottlesPerMonth + " штук бутылок");
 
+        System.out.println();
         System.out.println("Задача 5");
 
         int totalPaintCans = 120;
@@ -69,6 +72,19 @@ public class Main {
         int brownPaintCans = numberOfClasses * brownPaintCansPerClass;
 
         System.out.println("В школе, где " + numberOfClasses + " классов, нужно " + whitePaintCans + " банок белой краски и " + brownPaintCans + " банок коричневой краски");
+
+        System.out.println();
+        System.out.println("Задача 6");
+
+        int bananasWeight = 5 * 80;
+        int milkWeight = 2 * 105;
+        int iceCreamWeight = 2 * 100;
+        int eggsWeight = 4 * 70;
+
+        int breakfastWeight = bananasWeight + milkWeight + iceCreamWeight + eggsWeight;
+        double breakfastKgWeight = breakfastWeight / 1000.0;
+
+        System.out.println("Вес спортзавтрака: " + breakfastWeight + " г (" + breakfastKgWeight + ") кг");
 
     }
 }
