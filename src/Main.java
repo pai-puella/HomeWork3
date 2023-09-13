@@ -18,7 +18,7 @@ public class Main {
         System.out.println("Значение переменной myFloat c типом float равно " + myFloat);
         System.out.println("Значение переменной myDouble c типом double равно " + myDouble);
 
-        System.out.println("Задача 2");
+        //System.out.println("Задача 2");
 
         double myDouble1 = 27.12;
         long myLong1 = 987678965549L;
@@ -30,7 +30,33 @@ public class Main {
 
         System.out.println("Задача 3");
 
+        int studentsOfLudmilaPavlovna = 23;
+        int studentsOfAnnaSergeevna = 27;
+        int studentsOfEkaterinaAndreevna = 30;
+        int totalSheets = 480;
+        int totalStudents = studentsOfLudmilaPavlovna + studentsOfAnnaSergeevna + studentsOfEkaterinaAndreevna;
 
+        int sheetsPerStudent = totalSheets / totalStudents;
+        System.out.println("На каждого ученика рассчитано " + sheetsPerStudent + " листов бумаги");
+
+        System.out.println("Задача 4");
+
+        int bottlesPerTwoMinutes = 16;
+        int bottlesPerMinute = bottlesPerTwoMinutes / 2;
+        int minutes1 = 20;
+        int minutes2 = 24 * 60;
+        int minutes3 = 3 * 24 * 60;
+        int minutes4 = 10 * 24 * 60;
+
+        int bottlesPer20Minutes = bottlesPerMinute * minutes1;
+        int bottlesPerDay = bottlesPerMinute * minutes2;
+        int bottlesPer3Days = bottlesPerMinute * minutes3;
+        int bottlesPerMonth = bottlesPerMinute * minutes4;
+
+        System.out.println("За " + minutes1 + " минут машина произвела " + bottlesPer20Minutes + " бутылок");
+        System.out.println("За " + minutes2 + " минут машина произвела " + bottlesPerDay + " бутылок");
+        System.out.println("За " + minutes3 + " минут машина произвела " + bottlesPer3Days + " бутылок");
+        System.out.println("За " + minutes4 + " минут машина произвела " + bottlesPerMonth + " бутылок");
 
     }
 }
