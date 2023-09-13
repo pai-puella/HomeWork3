@@ -53,10 +53,22 @@ public class Main {
         int bottlesPer3Days = bottlesPerMinute * minutes3;
         int bottlesPerMonth = bottlesPerMinute * minutes4;
 
-        System.out.println("За " + minutes1 + " минут машина произвела " + bottlesPer20Minutes + " бутылок");
-        System.out.println("За " + minutes2 + " минут машина произвела " + bottlesPerDay + " бутылок");
-        System.out.println("За " + minutes3 + " минут машина произвела " + bottlesPer3Days + " бутылок");
-        System.out.println("За " + minutes4 + " минут машина произвела " + bottlesPerMonth + " бутылок");
+        System.out.println("За " + minutes1 + " минут машина произвела " + bottlesPer20Minutes + " штук бутылок");
+        System.out.println("За " + minutes2 + " минут машина произвела " + bottlesPerDay + " штук бутылок");
+        System.out.println("За " + minutes3 + " минут машина произвела " + bottlesPer3Days + " штук бутылок");
+        System.out.println("За " + minutes4 + " минут машина произвела " + bottlesPerMonth + " штук бутылок");
+
+        System.out.println("Задача 5");
+
+        int totalPaintCans = 120;
+        int whitePaintCansPerClass = 2;
+        int brownPaintCansPerClass = 4;
+
+        int numberOfClasses = totalPaintCans / (whitePaintCansPerClass + brownPaintCansPerClass);
+        int whitePaintCans = numberOfClasses * whitePaintCansPerClass;
+        int brownPaintCans = numberOfClasses * brownPaintCansPerClass;
+
+        System.out.println("В школе, где " + numberOfClasses + " классов, нужно " + whitePaintCans + " банок белой краски и " + brownPaintCans + " банок коричневой краски");
 
     }
 }
