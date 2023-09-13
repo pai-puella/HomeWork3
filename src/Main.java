@@ -101,6 +101,32 @@ public class Main {
         System.out.println("Дней на похудение (500 г в день): " + daysMaxWeightLoss);
         System.out.println("Среднее количество дней на похудение: " + averageDaysWeightLoss);
 
+        System.out.println();
+        System.out.println("Задача 8");
+
+        double mashaSalary = 67760;
+        double denisSalary = 83690;
+        double kristinaSalary = 76230;
+
+        double mashaNewSalary = mashaSalary * 1.1;
+        double denisNewSalary = denisSalary * 1.1;
+        double kristinaNewSalary = kristinaSalary * 1.1;
+
+        double mashaAnnualIncomeBefore = mashaSalary * 12;
+        double denisAnnualIncomeBefore = denisSalary * 12;
+        double kristinaAnnualIncomeBefore = kristinaSalary * 12;
+
+        double mashaAnnualIncomeAfter = mashaNewSalary * 12;
+        double denisAnnualIncomeAfter = denisNewSalary * 12;
+        double kristinaAnnualIncomeAfter = kristinaNewSalary * 12;
+
+        double mashaIncomeDifference = mashaAnnualIncomeAfter - mashaAnnualIncomeBefore;
+        double denisIncomeDifference = denisAnnualIncomeAfter - denisAnnualIncomeBefore;
+        double kristinaIncomeDifference = kristinaAnnualIncomeAfter - kristinaAnnualIncomeBefore;
+
+        System.out.println("Маша теперь получает " + mashaNewSalary + " рублей в месяц. Годовой доход вырос на " + mashaIncomeDifference + " рублей");
+        System.out.println("Денис теперь получает " + denisNewSalary + " рублей в месяц. Годовой доход вырос на " + denisIncomeDifference + " рублей");
+        System.out.println("Кристина теперь получает " + kristinaNewSalary + " рублей в месяц. Годовой доход вырос на " + kristinaIncomeDifference + " рублей");
 
     }
 }
