@@ -18,5 +18,19 @@ public class Main {
         System.out.println("Значение переменной myFloat c типом float равно " + myFloat);
         System.out.println("Значение переменной myDouble c типом double равно " + myDouble);
 
+        System.out.println("Задача 2");
+
+        double myDouble1 = 27.12;
+        long myLong1 = 987678965549L;
+        float myFloat1 = 2.786f;
+        int myInt1 = 569;
+        int myInt2 = -159;
+        int myInt3 = 27897;
+        int myInt4 = 67;
+
+        System.out.println("Задача 3");
+
+
+
     }
 }
