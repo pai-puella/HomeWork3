@@ -38,7 +38,7 @@ public class Main {
         int totalStudents = studentsOfLudmilaPavlovna + studentsOfAnnaSergeevna + studentsOfEkaterinaAndreevna;
 
         int sheetsPerStudent = totalSheets / totalStudents;
-        System.out.println("На каждого ученика рассчитано " + sheetsPerStudent + " листов бумаги");
+        System.out.printf("На каждого ученика рассчитано " + sheetsPerStudent + " листов бумаги");
 
         System.out.println();
         System.out.println("Задача 4");
